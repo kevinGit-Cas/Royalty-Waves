@@ -11,6 +11,11 @@
     line-height: 1.8;
 
 }
+.logo{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #eee3d2;
+}
 
 /* Contenedor Principal de la Sección  */
 .seccion-zigzag {
@@ -114,6 +119,7 @@
     height: 100%;
 
 }
+
 
 
 
