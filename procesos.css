@@ -9,14 +9,38 @@
     font-family: 'Montserrat';
     font-size: 1.9rem
     line-height: 1.8;
-
+/ * PRUEBA */
 }
 .logo{
     font-size: 3rem;
     font-weight: 700;
     color: #eee3d2;
 }
+.navbar a {
+    float:right;
+    display: inline-block; 
+    color: #eee3d2; 
+    text-align: center;
+    padding: 0 1em; 
+    font-size: 1.2rem;
+    text-decoration: none; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
 
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+header{ 
+    background-color: #20233d;
+    padding: 1.874em 3.125em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/ * FIN PRUEBA * /
 /* Contenedor Principal de la Sección  */
 .seccion-zigzag {
     max-width: 95%; /* Ancho máximo, puedes cambiarlo si quieres que ocupe más */
@@ -119,6 +143,7 @@
     height: 100%;
 
 }
+
 
 
 
