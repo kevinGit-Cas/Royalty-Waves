@@ -117,14 +117,14 @@ header{
 .filtros-container {
     display: flex;
     justify-content: flex-start; /* Alinea los grupos de filtros a la izquierda */
-    gap: 1.25em;
+    gap: 1em;
     align-items: center;
 }
 
 .filtro-grupo {
     display: flex;
     align-items: center;
-    gap: 1.25em;
+    gap: 1em;
     font-size: 1.3rem
 }
 
@@ -236,6 +236,7 @@ header{
     background-color: #333658; /* Color ligeramente más claro al pasar el mouse */
 
 }
+
 
 
 
