@@ -106,7 +106,7 @@ header{
 
 /* BARRA DE FILTROS */
 .seccion-filtros {
-    max-width: 90%;
+    max-width: 85%;
     margin: 2.125em auto 1.875em auto;
     border-top: 0.09375em solid #ccc;
     border-bottom: 0.09375em solid #ccc;
@@ -117,7 +117,7 @@ header{
 .filtros-container {
     display: flex;
     justify-content: flex-start; /* Alinea los grupos de filtros a la izquierda */
-    gap: 2.8125em;
+    gap: 2.500em;
     align-items: center;
 }
 
@@ -125,14 +125,14 @@ header{
     display: flex;
     align-items: center;
     gap: 0.9375em;
-    font-size: 1.9rem
+    font-size: 1.7rem
 }
 
 .etiqueta {
-    font-size: 2.2em;
+    font-size: 1.8em;
     font-weight: 500;
     color: #333;
-    font-size: 1.9rem
+    
 }
 
 .filtro-btn {
@@ -154,8 +154,8 @@ header{
 
 /* Estilos de los círculos de color */
 .color-opcion {
-    width: 2.1875em;
-    height: 2.1875em;
+    width: 1.8em;
+    height: 1.8em;
     border-radius: 55%;
     border: 0.0625em solid #ccc;
     cursor: pointer;
@@ -236,6 +236,7 @@ header{
     background-color: #333658; /* Color ligeramente más claro al pasar el mouse */
 
 }
+
 
 
 
