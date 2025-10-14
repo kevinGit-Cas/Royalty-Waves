@@ -97,7 +97,7 @@
     .carta-historia p{
     font-size: 1em;
     color: #666;
-    margin: 0 20px 20px 20px; /* Espaciado interno para la descripción */
+    margin: 0 1.24em 1.24em1.24em; /* Espaciado interno para la descripción */
     flex-grow: 1; /* Para que el párrafo ocupe el espacio restante */
     }
     
@@ -111,5 +111,6 @@
         padding: 50px 50px;
 
 }
+
 
 
