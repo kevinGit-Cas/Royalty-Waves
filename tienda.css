@@ -117,15 +117,15 @@ header{
 .filtros-container {
     display: flex;
     justify-content: flex-start; /* Alinea los grupos de filtros a la izquierda */
-    gap: 2.500em;
+    gap: 1.25em;
     align-items: center;
 }
 
 .filtro-grupo {
     display: flex;
     align-items: center;
-    gap: 0.9375em;
-    font-size: 1.7rem
+    gap: 1.25em;
+    font-size: 1.3rem
 }
 
 .etiqueta {
@@ -139,7 +139,7 @@ header{
     background: none;
     border: 0.0675em solid #ccc;
     padding: 0.375em 0.75em;
-    font-size: 1.9rem;
+    font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.2s ease;
 }
@@ -236,6 +236,7 @@ header{
     background-color: #333658; /* Color ligeramente más claro al pasar el mouse */
 
 }
+
 
 
 
