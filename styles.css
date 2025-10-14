@@ -37,8 +37,8 @@
 .unabuenahistoria {
 
     max-width: 95%; /*ancho maximo del contenedor principal*/
-    margin: 60px auto; /*espacio sup infer y centrado*/
-    padding: 0 20px;   /* espacio a los lados*/
+    margin: 3.75em auto; /*espacio sup infer y centrado*/
+    padding: 0 1.25em;   /* espacio a los lados*/
     
      
 }
@@ -48,7 +48,7 @@
     text-align: center;
     font-size: 5em;  /* esto pa que es?*/
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 2.5em;
     color: #20233d;
 
 }
@@ -58,7 +58,7 @@
 .carta{
     display:grid;
     grid-template-columns: repeat(3, 1fr); /* que haga 3 colomnas igual tamaño*/
-    gap: 30px; /* espacio entre tarjetas*/
+    gap: 1.875em; /* espacio entre tarjetas*/
 }
 
     /* estilo para cada tarjeta*/
@@ -67,7 +67,7 @@
         background-color: white;
         border-radius: 5px; /*bordes ligeros*/
         overflow: hidden; /* esto asegura que la imagen no sobresalga*/
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);  /*sombra sutil efecto 3d*/
+        box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.05);  /*sombra sutil efecto 3d*/
         display: flex; /* organiza contenido verticalmente*/
         flex-direction: column;
     }
@@ -88,7 +88,7 @@
     .carta-historia h3{
         font-size: 2em;
     font-weight: 600; /* Un poco más grueso para los títulos */
-    margin: 20px 20px 10px 20px; /* Espaciado interno para el título */
+    margin: 1.25em 1.25em 0.625em 1.25em; /* Espaciado interno para el título */
     color: #333;
 
     }
@@ -109,9 +109,10 @@
 .copy {
         display: flex ;
         justify-content: center;
-        padding: 50px 50px;
+        padding: 3.125em 3.125em;
 
 }
+
 
 
 
