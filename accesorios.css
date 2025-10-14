@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+
+    header {
+        background-color: #20233d;
+        display: flex;
+        padding: 30px 50px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   .navbar a {
+    float: flex;
+    display: inline-block; 
+    color: #eee3d2; 
+    text-align: center;
+    padding: 0 16px; 
+    font-size: 1.5rem;
+    text-decoration: none; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.navbar a:hover { 
+    text-decoration: underline;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+    justify-content: center;
+}
+
+.banner-accesorios{
+    align-items: center;
+    
+}
+
+.seccion-filtros {
+    max-width: 90%;
+    margin: 50px auto 30px auto;
+    border-top: 1.5px solid #ccc;
+    border-bottom: 1.5px solid #ccc;
+    padding: 18px 0;
+  
+
+}
+
+.filtro-btn {
+    background: none;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    font-size: 1.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filtro-grupo{
+    text-align: center;
+}
+
+/* los botones se cambien color*/
+.filtro-btn.activo,
+.filtro-btn:hover {
+    border-color: #20233d;
+    background-color: #20233d;
+    color: white;
+}
+
+.etiqueta {
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #333;
+}
+/* CARRUSEL */
+#myCarousel {
+    /* Limita el ancho del carrusel para que no ocupe toda la pantalla.
+       Este valor lo hace similar al bloque de contenido principal (aproximadamente 1100px). */
+    max-width: 85%; 
+    
+    /* Centra el carrusel en la pantalla */
+    margin: 50px auto; 
+    
+    /* Asegúrate de que el contenedor de Bootstrap no tenga padding que arruine el centrado */
+    padding: 0;
+}
+
+/* 2. Estilos de las Imágenes: Define la Altura */
+/* Como estás usando style="width:100%;" inline en el HTML, el ancho ya está cubierto.
+   Esta regla se enfoca en la altura y el ajuste visual. */
+#carousel-inner img {
+    /* CONTROL DE ALTURA: 35% de la altura de la ventana (un buen tamaño intermedio) */
+    height: 28vh; 
+    
+    /* Esto asegura que la imagen cubra el área sin distorsionarse, recortando si es necesario */
+    object-fit: cover; 
+    
+    display: block;
+}
+
+/* 3. Ajuste de los Controles (Diseño limpio y de lujo) */
+.carousel-control {
+    background-image: none !important; /* Elimina el degradado de fondo predeterminado de Bootstrap */
+    opacity: 0.8; 
+    transition: opacity 0.2s;
+}
+
+.carousel-control:hover {
+    opacity: 1; /* Transparencia total al pasar el mouse */
+}
+
+/* Color de los indicadores */
+.carousel-indicators li {
+    border-color: #20233d; /* Borde del indicador */
+}
+
+.carousel-indicators .active {
+    background-color: #20233d; /* Relleno del indicador activo */
+}
+
+
+/* GRID DE PRODUCTOS (la Vitrina de Lujo) */
+
+.seccion-accesorios {
+    max-width: 90%;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.accesorios-grid {
+    /* Crea la cuadrícula de 3 columnas para un diseño espacioso */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px; /* Espacio generoso entre productos */
+}
+
+.tarjeta-producto {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+/* Elevación sutil al pasar el mouse (efecto lujo) */
+.tarjeta-producto:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.producto-imagen-container {
+    padding: 20px; /* Espaciado dentro del contenedor de imagen */
+    background-color: #f7f7f7; /* Fondo gris claro para hacer resaltar el producto */
+}
+
+.producto-imagen-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.producto-info {
+    padding: 15px 15px 20px 15px;
+}
+
+.producto-info h3 {
+    font-size: 2.8rem;
+    font-weight: 600;
+    color: #20233d;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.precio {
+    font-size: 2.5rem;
+    color: #666;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.btn-carrito {
+    background-color: #20233d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.7rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.btn-carrito:hover {
+    background-color: #333658; /* Color ligeramente más claro al pasar el mouse */
+}

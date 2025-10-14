@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Revisa la URL y úsala correctamente */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');;
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body {
+    background-color: #EEE3D2;
+    color: black;
+    font-family: 'Montserrat';
+    line-height: 1.6;
+}
+
+/* CARRUSEL */
+#myCarousel {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#myCarousel .carousel-inner img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+  display: block;
+}
+
+
+
+
+/*cartas*/
+.unabuenahistoria {
+
+    max-width: 95%; /*ancho maximo del contenedor principal*/
+    margin: 60px auto; /*espacio sup infer y centrado*/
+    padding: 0 20px;   /* espacio a los lados*/
+    
+     
+}
+
+/* titulo de la seccion*/
+.titulo-seccion {
+    text-align: center;
+    font-size: 5em;  /* esto pa que es?*/
+    font-weight: 500;
+    margin-bottom: 40px;
+    color: #20233d;
+
+}
+
+/* cuadriculas de historias*/
+
+.carta{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr); /* que haga 3 colomnas igual tamaño*/
+    gap: 30px; /* espacio entre tarjetas*/
+}
+
+    /* estilo para cada tarjeta*/
+
+    .carta-historia{
+        background-color: white;
+        border-radius: 5px; /*bordes ligeros*/
+        overflow: hidden; /* esto asegura que la imagen no sobresalga*/
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);  /*sombra sutil efecto 3d*/
+        display: flex; /* organiza contenido verticalmente*/
+        flex-direction: column;
+    }
+
+    .imagen-historia{
+        width: 100%;  /* Asegura que la imagen ocupe todo el ancho */
+        height: 800px; /* Altura fija para las imágenes */
+        overflow: hidden; 
+    }
+
+    .carta-historia img {
+        width: 100%;
+        height: 100%;
+        object-fit:cover; /* Recorta la imagen para que cubra el contenedor sin distorsionarse */
+        display: block; /* Elimina el espacio extra debajo de las imágenes */
+
+    }
+    .carta-historia h3{
+        font-size: 2em;
+    font-weight: 600; /* Un poco más grueso para los títulos */
+    margin: 20px 20px 10px 20px; /* Espaciado interno para el título */
+    color: #333;
+
+    }
+    
+
+    .carta-historia p{
+    font-size: 2em;
+    color: #666;
+    margin: 0 20px 20px 20px; /* Espaciado interno para la descripción */
+    flex-grow: 1; /* Para que el párrafo ocupe el espacio restante */
+    }
+    
+   
+
+
+
+.copy {
+        display: flex ;
+        justify-content: center;
+        padding: 50px 50px;
+}

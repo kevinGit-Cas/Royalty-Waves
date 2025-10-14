@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: #EEE3D2;
+    color: black;
+    font-family: 'Montserrat';
+    line-height: 1.8;
+
+}
+
+/* Contenedor Principal de la Sección  */
+.seccion-zigzag {
+    max-width: 95%; /* Ancho máximo, puedes cambiarlo si quieres que ocupe más */
+    margin: 80px auto;
+    padding: 0 20px;
+}
+
+.seccion-zigzag h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 2.5em;
+    color: #20233d;
+}
+
+/* Espacio entre cada bloque (fila) de contenido */
+.caracteristica:not(:last-child) {
+    margin-bottom: 60px; 
+}
+
+
+/* Estructura Flexbox (Crea la fila)   */
+.caracteristica {
+    display: flex; /* La clave para poner imagen y texto lado a lado */
+    align-items: center; 
+    gap: 50px; /* Espacio entre la imagen y el texto */
+}
+
+/* Las imágenes y el texto ocupan la mitad del espacio */
+.media-container{
+    flex: 1;
+    display: block;
+}
+.texto-container {
+    flex: 1; 
+}
+
+
+/* REGLA ZIGZAG: Inversión del Orden   */
+.caracteristica.reverse {
+    /* Invierte los elementos: el texto se va a la izquierda y la imagen a la derecha */
+    flex-direction: row-reverse; 
+}
+
+
+/* Estilos Visuales                    */
+.media-container img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.texto-container h3 {
+    font-size: 4em;
+    color: #007bff; /* Un color de acento */
+    margin-bottom: 15px;
+}
+ .texto-container p {
+    font-size: 2.5em;
+    text-align: justify;
+
+ }
+
+ .seccion-video {
+    /* Define el ancho de la sección y la centra */
+    max-width: 95%; 
+    margin: 80px auto; 
+    padding: 0 20px;
+    text-align: center;
+}
+
+.seccion-video h2 {
+    margin-bottom: 30px;
+    font-size: 5em;
+    color: #20233d;
+}
+
+/* CONTENEDOR RESPONSIVO PARA YOUTUBE */
+.video-container-youtube { 
+    /* 1. Ancho máximo y centrado del contenedor */
+    
+    margin: 0 auto; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15); 
+    border-radius: 8px;
+    overflow: hidden;
+    
+    /* 2. Propiedades de la "Aspect Ratio Box" (Crea la proporción 16:9) */
+    position: relative;
+    padding-bottom: 56.25%; /* Esto asegura que la altura sea el 56.25% del ancho (16:9) */
+    height: 0; /* Colapsa la altura para que padding-bottom la defina */
+}
+
+/* 3. Estilo para el IFRAME (El video real) */
+.video-container-youtube iframe { 
+    position: absolute; /* Permite que el iframe ocupe todo el espacio de la caja 16:9 */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
