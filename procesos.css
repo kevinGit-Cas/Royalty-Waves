@@ -3,7 +3,7 @@
     padding: 0;
     
 }
-body {
+.body {
     background-color: #EEE3D2;
     color: black;
     font-family: 'Montserrat';
@@ -113,3 +113,4 @@ body {
     height: 100%;
 
 }
+
