@@ -66,12 +66,12 @@
 }
 
 .texto-container h3 {
-    font-size: 1em;
+    font-size: 2em;
     color: #007bff; /* Un color de acento */
     margin-bottom: 15px;
 }
  .texto-container p {
-    font-size: 0.5em;
+    font-size: 1em;
     text-align: justify;
 
  }
@@ -114,6 +114,7 @@
     height: 100%;
 
 }
+
 
 
 
