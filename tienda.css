@@ -125,12 +125,14 @@ header{
     display: flex;
     align-items: center;
     gap: 0.9375em;
+    font-size: 1.9rem
 }
 
 .etiqueta {
     font-size: 2.2em;
     font-weight: 500;
     color: #333;
+    font-size: 1.9rem
 }
 
 .filtro-btn {
@@ -234,4 +236,5 @@ header{
     background-color: #333658; /* Color ligeramente más claro al pasar el mouse */
 
 }
+
 
