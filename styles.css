@@ -73,8 +73,8 @@
     }
 
     .imagen-historia{
-        width: 100%;  /* Asegura que la imagen ocupe todo el ancho */
-        height: 50em; /* Altura fija para las imágenes */
+        width: 25em;  /* Asegura que la imagen ocupe todo el ancho */
+        height: 25em; /* Altura fija para las imágenes */
         overflow: hidden; 
     }
 
@@ -111,3 +111,4 @@
         padding: 50px 50px;
 
 }
+
